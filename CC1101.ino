@@ -8,13 +8,13 @@ const char* ssid = "";
 const char* password = "";
 
 // RF pins definitions
-#define CC1101_SCK 18   // SPI clock
-#define CC1101_MISO 19  // SPI data (MISO)
-#define CC1101_MOSI 23  // SPI data (MOSI)
-#define CC1101_CS 5     // Chip select (CS)
-#define CC1101_GDO0 2   // RF receive interrupt pin
-#define CC1101_GDO2 4   // Optional secondary interrupt pin
-#define RF_TX_PIN 14    // RF transmit pin
+#define CC1101_SCK  18   // SPI clock
+#define CC1101_MISO  19  // SPI data (MISO)
+#define CC1101_MOSI  23  // SPI data (MOSI)
+#define CC1101_CS 27      // Chip select (CS)
+#define CC1101_GDO0 22    // RF receive interrupt pin
+//#define CC1101_GDO2 4   // Optional secondary interrupt pin
+//#define RF_TX_PIN 27    // RF transmit pin
 
 RCSwitch mySwitch = RCSwitch();
 
